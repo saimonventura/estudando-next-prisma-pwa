@@ -13,6 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ptBR">
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" href="/icons/icon.webp" />
+      </head>
       <body>{children}</body>
     </html>
   );
